@@ -7,6 +7,6 @@
 - sp_a1_code_laser - [Test 1](https://steamcommunity.com/sharedfiles/filedetails/?id=2207292961), [Test 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2182387029)
 - sp_a1_bridge_laser - [Test 1](https://steamcommunity.com/sharedfiles/filedetails/?id=2053338589), [Test 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2099906360)
 - sp_a1_bridge_catch - [Test 1](https://steamcommunity.com/sharedfiles/filedetails/?id=2207669237), [Test 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2138260002)
-- sp_a1_cross_laser - [Test](https://steamcommunity.com/sharedfiles/filedetails/?id=2209877067)
+- sp_a1_cross_laser - [Test (Rework)](https://steamcommunity.com/sharedfiles/filedetails/?id=2209877067)
 ## ACT 2 (Lemon)
 
