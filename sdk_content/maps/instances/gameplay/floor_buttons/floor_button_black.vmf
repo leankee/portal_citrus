@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "33"
+	"mapversion" "35"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -73,7 +73,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "33"
+	"mapversion" "35"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4988,74 +4988,31 @@ entity
 }
 entity
 {
-	"id" "460"
-	"classname" "func_instance_parms"
-	"parm1" "$indicator_lights string"
-	"origin" "40 40 16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "419"
-	"classname" "logic_relay"
+	"id" "536"
+	"classname" "info_overlay"
 	"angles" "0 0 0"
-	"spawnflags" "0"
-	"targetname" "relay_activated"
-	connections
-	{
-		"OnTrigger" "floor_button_stand_toggleSetTextureIndex10-1"
-		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex10-1"
-		"OnTrigger" "proxyProxyRelay0-1"
-	}
-	"origin" "56 56 16"
+	"BasisNormal" "-0 0 1"
+	"BasisOrigin" "0 0 8"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 -0"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "overlays/aperture_lrg003"
+	"sides" "628 634 622 610 616 604 591 585 597 579 518 573 567 555 549 561 536 530 542 524 707 725 719 713 732 744 750 738 512 701 640 695 677 683 689 671 658 652 664 646"
+	"startu" "0"
+	"startv" "1"
+	"uv0" "-64 -64 0"
+	"uv1" "-64 64 0"
+	"uv2" "64 64 0"
+	"uv3" "64 -64 0"
+	"origin" "0 0 8"
 	editor
 	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "417"
-	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"spawnflags" "0"
-	"targetname" "relay_deactivated"
-	connections
-	{
-		"OnTrigger" "floor_button_stand_toggleSetTextureIndex00-1"
-		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex00-1"
-		"OnTrigger" "proxyProxyRelay0-1"
-	}
-	"origin" "40 56 16"
-	editor
-	{
-		"color" "0 100 250"
+		"color" "80 150 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "324"
-	"classname" "func_instance_io_proxy"
-	"targetname" "proxy"
-	"origin" "56 40 16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -5207,6 +5164,78 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "324"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "56 40 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "417"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "relay_deactivated"
+	connections
+	{
+		"OnTrigger" "floor_button_stand_toggleSetTextureIndex00-1"
+		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex00-1"
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "40 56 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "460"
+	"classname" "func_instance_parms"
+	"parm1" "$indicator_lights string"
+	"origin" "40 40 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "419"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "relay_activated"
+	connections
+	{
+		"OnTrigger" "floor_button_stand_toggleSetTextureIndex10-1"
+		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex10-1"
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "56 56 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
