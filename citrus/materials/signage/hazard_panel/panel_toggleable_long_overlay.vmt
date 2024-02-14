@@ -1,0 +1,17 @@
+LightmappedGeneric
+{
+	$basetexture "signage/hazard_panel/panel_toggleable_long"
+	$decal 1
+	$selfillum 1
+	"%keywords" portal
+
+	Proxies
+	{
+		ToggleTexture
+		{
+			toggleTextureVar $baseTexture
+			toggleTextureFrameNumVar $frame
+			toggleTextureShouldWrap 0
+		}
+	}
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "signage/hazard_funnel/funnel_reversed"
+	$surfaceprop glass
+	$selfillum 1
+	"%keywords" portal
+}
