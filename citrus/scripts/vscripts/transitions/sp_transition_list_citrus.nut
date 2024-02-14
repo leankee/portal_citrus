@@ -3,14 +3,13 @@ FORCE_GUN_AND_HALLWAY <- 0
 
 FIRST_MAP_WITH_GUN <- ""
 FIRST_MAP_WITH_UPGRADE_GUN <- ""
-FIRST_MAP_WITH_POTATO_GUN <- ""
 LAST_PLAYTEST_MAP <- ""
 
 
 CHAPTER_TITLES <- 
 [
-	{ map = "sp_a1_cube_fizzler", title_text = "#portal2_Chapter1_Title", subtitle_text = "#portal2_Chapter1_Subtitle", displayOnSpawn = true,		displaydelay = 1.0 },
-	{ map = "sp_a2_laser_intro", title_text = "#portal2_Chapter2_Title", subtitle_text = "#portal2_Chapter2_Subtitle", displayOnSpawn = true,	displaydelay = 2.5 },
+	{ map = "sp_a1_intro1", title_text = "#portal2_Chapter1_Title", subtitle_text = "#portal2_Chapter1_Subtitle", displayOnSpawn = true,		displaydelay = 1.0 },
+	{ map = "sp_a1_cube_fizzler", title_text = "#portal2_Chapter2_Title", subtitle_text = "TESTING BEGINS", displayOnSpawn = true,	displaydelay = 9.0 },
 	{ map = "sp_a2_sphere_peek", title_text = "#portal2_Chapter3_Title", subtitle_text = "#portal2_Chapter3_Subtitle", displayOnSpawn = true,	displaydelay = 2.5 },
 	{ map = "sp_a2_column_blocker", title_text = "#portal2_Chapter4_Title", subtitle_text = "#portal2_Chapter4_Subtitle", displayOnSpawn = true, displaydelay = 2.5 },
 	{ map = "sp_a2_bts3", title_text = "#portal2_Chapter5_Title", subtitle_text = "#portal2_Chapter5_Subtitle", displayOnSpawn = true,			displaydelay = 1.0 },
@@ -68,6 +67,7 @@ MapPlayOrder<- [
 // ---------------------------------------------------
 // 	Intro
 // ---------------------------------------------------
+"sp_a1_intro1",
 "sp_a1_cube_fizzler",				// motel to box-on-button
 ]
 
@@ -92,7 +92,8 @@ function OnPostTransition()
 				{
 					printl( "Teleporting to default start pos" )
 					EntFire( "@elevator_entry_teleport", "Teleport", 0, 0 )		
-					EntFire( "@arrival_teleport", "Teleport", 0, 0 )		
+					EntFire( "@arrival_teleport", "Teleport", 0, 0 )
+					printl("TELEPORTED!")		
 				}
 				else
 				{
@@ -188,10 +189,6 @@ function Think()
 		{
 			portalGunSecondCommand = "upgrade_portalgun"
 		}
-		else if (MapPlayOrder[index] == FIRST_MAP_WITH_POTATO_GUN)
-		{
-			portalGunSecondCommand = "upgrade_potatogun"
-		}
 		
 		if (GetMapName() == MapPlayOrder[index])
 		{
@@ -214,7 +211,6 @@ function Think()
 		EntFire( "command", "Command", portalGunSecondCommand, 0.1 )
 		EntFire( "@command", "Command", portalGunSecondCommand, 0.1 )
 	}
-	
 }
 
 // --------------------------------------------------------
