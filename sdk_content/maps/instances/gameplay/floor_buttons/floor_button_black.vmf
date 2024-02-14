@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "35"
+	"mapversion" "40"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -73,7 +73,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "35"
+	"mapversion" "40"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -107,6 +107,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
 	"_zero_percent_distance" "0"
 	"angles" "90 0 0"
 	"pitch" "90"
@@ -135,6 +136,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
 	"_zero_percent_distance" "0"
 	"angles" "0 0 0"
 	"spawnflags" "0"
@@ -464,7 +466,7 @@ entity
 				"v" "-7 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -582,7 +584,7 @@ entity
 				"v" "-18 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -700,7 +702,7 @@ entity
 				"v" "-23 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -818,7 +820,7 @@ entity
 				"v" "-12 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1010,7 +1012,7 @@ entity
 				"v" "-28 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1546,7 +1548,7 @@ entity
 				"v" "-12 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1664,7 +1666,7 @@ entity
 				"v" "-23 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1782,7 +1784,7 @@ entity
 				"v" "-28 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1900,7 +1902,7 @@ entity
 				"v" "-18 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2092,7 +2094,7 @@ entity
 				"v" "-64 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 -128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2864,7 +2866,7 @@ entity
 				"v" "7 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2982,7 +2984,7 @@ entity
 				"v" "18 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3100,7 +3102,7 @@ entity
 				"v" "23 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3218,7 +3220,7 @@ entity
 				"v" "12 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3410,7 +3412,7 @@ entity
 				"v" "28 64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4064,7 +4066,7 @@ entity
 				"v" "12 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4182,7 +4184,7 @@ entity
 				"v" "23 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4300,7 +4302,7 @@ entity
 				"v" "28 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4418,7 +4420,7 @@ entity
 				"v" "18 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4610,7 +4612,7 @@ entity
 				"v" "64 -64 8"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[-1 0 0 128] 0.25"
+			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4988,31 +4990,74 @@ entity
 }
 entity
 {
-	"id" "536"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "-0 0 1"
-	"BasisOrigin" "0 0 8"
-	"BasisU" "1 0 0"
-	"BasisV" "-0 1 -0"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "overlays/aperture_lrg003"
-	"sides" "628 634 622 610 616 604 591 585 597 579 518 573 567 555 549 561 536 530 542 524 707 725 719 713 732 744 750 738 512 701 640 695 677 683 689 671 658 652 664 646"
-	"startu" "0"
-	"startv" "1"
-	"uv0" "-64 -64 0"
-	"uv1" "-64 64 0"
-	"uv2" "64 64 0"
-	"uv3" "64 -64 0"
-	"origin" "0 0 8"
+	"id" "460"
+	"classname" "func_instance_parms"
+	"parm1" "$indicator_lights string"
+	"origin" "40 40 16"
 	editor
 	{
-		"color" "80 150 225"
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "419"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "relay_activated"
+	connections
+	{
+		"OnTrigger" "floor_button_stand_toggleSetTextureIndex10-1"
+		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex10-1"
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "56 56 16"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "417"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "relay_deactivated"
+	connections
+	{
+		"OnTrigger" "floor_button_stand_toggleSetTextureIndex00-1"
+		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex00-1"
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "40 56 16"
+	editor
+	{
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "324"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "56 40 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -5091,7 +5136,7 @@ entity
 				"v" "-64 64 0"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[0 1 0 128] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5109,7 +5154,7 @@ entity
 				"v" "64 64 6"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[0 1 0 128] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5127,7 +5172,7 @@ entity
 				"v" "64 64 0"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5145,7 +5190,7 @@ entity
 				"v" "64 -64 6"
 			}
 			"material" "JOSEPEZDJ/DETAIL/JOSE_BUTTON_FRAME_ALPHA"
-			"uaxis" "[1 0 0 128] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5168,74 +5213,31 @@ entity
 }
 entity
 {
-	"id" "324"
-	"classname" "func_instance_io_proxy"
-	"targetname" "proxy"
-	"origin" "56 40 16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "417"
-	"classname" "logic_relay"
+	"id" "536"
+	"classname" "info_overlay"
 	"angles" "0 0 0"
-	"spawnflags" "0"
-	"targetname" "relay_deactivated"
-	connections
-	{
-		"OnTrigger" "floor_button_stand_toggleSetTextureIndex00-1"
-		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex00-1"
-		"OnTrigger" "proxyProxyRelay0-1"
-	}
-	"origin" "40 56 16"
+	"BasisNormal" "-0 0 1"
+	"BasisOrigin" "0 0 8"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 1 -0"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "overlays/aperture_lrg003"
+	"sides" "628 634 622 610 616 604 591 585 597 579 518 573 567 555 549 561 536 530 542 524 707 725 719 713 732 744 750 738 512 701 640 695 677 683 689 671 658 652 664 646"
+	"startu" "0"
+	"startv" "1"
+	"uv0" "-64 -64 0"
+	"uv1" "-64 64 0"
+	"uv2" "64 64 0"
+	"uv3" "64 -64 0"
+	"origin" "0 0 8"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "80 150 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "460"
-	"classname" "func_instance_parms"
-	"parm1" "$indicator_lights string"
-	"origin" "40 40 16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "419"
-	"classname" "logic_relay"
-	"angles" "0 0 0"
-	"spawnflags" "0"
-	"targetname" "relay_activated"
-	connections
-	{
-		"OnTrigger" "floor_button_stand_toggleSetTextureIndex10-1"
-		"OnTrigger" "floor_button_indicator_toggleSetTextureIndex10-1"
-		"OnTrigger" "proxyProxyRelay0-1"
-	}
-	"origin" "56 56 16"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 cameras
