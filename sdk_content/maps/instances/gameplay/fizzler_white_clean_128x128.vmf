@@ -100,7 +100,7 @@ world
 				"v" "-64 -8 128"
 				"v" "-64 -16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -320] 0.25"
 			"rotation" "0"
@@ -118,7 +118,7 @@ world
 				"v" "-64 -16 0"
 				"v" "-64 -8 0"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 324] 0.25"
 			"rotation" "0"
@@ -136,7 +136,7 @@ world
 				"v" "-96 -8 128"
 				"v" "-96 -16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -154,7 +154,7 @@ world
 				"v" "-64 -16 128"
 				"v" "-64 -8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 258] 0.25"
 			"rotation" "0"
@@ -190,7 +190,7 @@ world
 				"v" "-96 -16 128"
 				"v" "-64 -16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -219,7 +219,7 @@ world
 				"v" "-64 16 128"
 				"v" "-64 8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -322] 0.25"
 			"rotation" "0"
@@ -237,7 +237,7 @@ world
 				"v" "-64 8 0"
 				"v" "-64 16 0"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 322] 0.25"
 			"rotation" "0"
@@ -255,7 +255,7 @@ world
 				"v" "-96 16 128"
 				"v" "-96 8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -273,7 +273,7 @@ world
 				"v" "-64 8 128"
 				"v" "-64 16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 1 0 -96] 0.25"
 			"vaxis" "[0 0 -1 258] 0.25"
 			"rotation" "0"
@@ -291,7 +291,7 @@ world
 				"v" "-64 16 128"
 				"v" "-96 16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -338,7 +338,7 @@ world
 				"v" "-88 8 128"
 				"v" "-88 -8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -322] 0.25"
 			"rotation" "0"
@@ -356,7 +356,7 @@ world
 				"v" "-88 -8 0"
 				"v" "-88 8 0"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 322] 0.25"
 			"rotation" "0"
@@ -374,7 +374,7 @@ world
 				"v" "-96 8 128"
 				"v" "-96 -8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -410,7 +410,7 @@ world
 				"v" "-88 8 128"
 				"v" "-96 8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -428,7 +428,7 @@ world
 				"v" "-96 -8 128"
 				"v" "-88 -8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -575,7 +575,7 @@ world
 				"v" "96 16 128"
 				"v" "96 8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -320] 0.25"
 			"rotation" "0"
@@ -593,7 +593,7 @@ world
 				"v" "96 8 0"
 				"v" "96 16 0"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 324] 0.25"
 			"rotation" "0"
@@ -611,7 +611,7 @@ world
 				"v" "96 8 128"
 				"v" "96 16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 -1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -629,7 +629,7 @@ world
 				"v" "64 16 128"
 				"v" "64 8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 258] 0.25"
 			"rotation" "0"
@@ -665,7 +665,7 @@ world
 				"v" "96 16 128"
 				"v" "64 16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -694,7 +694,7 @@ world
 				"v" "96 -8 128"
 				"v" "96 -16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -322] 0.25"
 			"rotation" "0"
@@ -712,7 +712,7 @@ world
 				"v" "96 -16 0"
 				"v" "96 -8 0"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 322] 0.25"
 			"rotation" "0"
@@ -730,7 +730,7 @@ world
 				"v" "96 -16 128"
 				"v" "96 -8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 -1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -748,7 +748,7 @@ world
 				"v" "64 -8 128"
 				"v" "64 -16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 -1 0 -96] 0.25"
 			"vaxis" "[0 0 -1 258] 0.25"
 			"rotation" "0"
@@ -766,7 +766,7 @@ world
 				"v" "64 -16 128"
 				"v" "96 -16 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -813,7 +813,7 @@ world
 				"v" "96 8 128"
 				"v" "96 -8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -322] 0.25"
 			"rotation" "0"
@@ -831,7 +831,7 @@ world
 				"v" "96 -8 0"
 				"v" "96 8 0"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 322] 0.25"
 			"rotation" "0"
@@ -849,7 +849,7 @@ world
 				"v" "96 -8 128"
 				"v" "96 8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[0 -1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -885,7 +885,7 @@ world
 				"v" "88 -8 128"
 				"v" "96 -8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -903,7 +903,7 @@ world
 				"v" "96 8 128"
 				"v" "88 8 128"
 			}
-			"material" "METAL/BLACK_WALL_METAL_NEW_000B"
+			"material" "TILE/WTHRD_WHITE_WALL_TILE003F_BOTTOM"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
@@ -1123,8 +1123,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[166.904 -24.5349 21.6821]"
-		"look" "[37.2902 88.9355 31.3142]"
+		"position" "[-13.6208 97.8395 213.901]"
+		"look" "[16.6961 -10.7449 83.2931]"
 	}
 	camera
 	{
