@@ -59,10 +59,33 @@
 			"icons"
 			{
 				"cube_drop" "1"
-				"cube_button" "1"
 				"cube_bonk" "1"
+				"cube_button" "1"
+				
 				"button_stand" "0"
 				"goop" "0"
+				"portal_fling" "0"
+				"portal_fling_2" "0"
+				"turret" "0"
+				"drink_water" "0"
+				"grinders" "0"
+			}
+		}
+		"sp_a1_refraction_piston"
+		{
+			//Map data
+			"name" "Citrus: Lime"
+			"level_number" "3"
+			"total_levels" "13"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_bonk" "1"
+				"cube_button" "1"
+				"laser_power" "1"
+				"laser_cube" "1"
 				"portal_fling" "0"
 				"portal_fling_2" "0"
 				"turret" "0"

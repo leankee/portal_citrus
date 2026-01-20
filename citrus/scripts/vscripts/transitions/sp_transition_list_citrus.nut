@@ -1,8 +1,8 @@
 DBG <- 0
 FORCE_GUN_AND_HALLWAY <- 0
 
-FIRST_MAP_WITH_GUN <- ""
-FIRST_MAP_WITH_UPGRADE_GUN <- ""
+FIRST_MAP_WITH_GUN <- "sp_a1_refraction_piston"
+FIRST_MAP_WITH_UPGRADE_GUN <- "sp_a1_refraction_piston"
 LAST_PLAYTEST_MAP <- ""
 
 
@@ -68,7 +68,9 @@ MapPlayOrder<- [
 // 	Intro
 // ---------------------------------------------------
 "sp_a1_intro1",
-"sp_a1_cube_fizzler",				// motel to box-on-button
+"sp_a1_intro2",
+"sp_a1_cube_fizzler",
+"sp_a1_refraction_piston",
 ]
 
 
@@ -185,7 +187,7 @@ function Think()
 		{
 			portalGunCommand = "give_portalgun"
 		}		
-		else if (MapPlayOrder[index] == FIRST_MAP_WITH_UPGRADE_GUN)
+		if (MapPlayOrder[index] == FIRST_MAP_WITH_UPGRADE_GUN)
 		{
 			portalGunSecondCommand = "upgrade_portalgun"
 		}
